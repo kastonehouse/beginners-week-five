@@ -23,8 +23,12 @@ body {
     border-color: peru;
   }
 
-img {
+.doughnut-imgs {
   display: flex;
   border-radius: 100%;
   height: 120px;
   }
+
+.h-100 {
+  height:100%
+}
