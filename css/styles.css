@@ -21,3 +21,10 @@ body {
 .btn-primary {
     background-color: peru;
     border-color: peru;
+  }
+
+img {
+  display: flec;
+  border-radius: 100%;
+  height: 120px;
+  }
