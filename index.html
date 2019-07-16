@@ -47,16 +47,16 @@
 
       <!-- columns -->
       <div class="row">
-        <div class="col-sm">
-          <img src="images/Chocolate_Donut.jpg" alt="A chocolate covered doughnut">
+        <div class="col-sm text-center">
+            <img src="images/Chocolate_Donut.jpg" alt="A chocolate covered doughnut">
           <p> Chocolate Doughnuts? </p>
           <button type="button" class="btn btn-primary my-class">Click me!</button>
         </div>
-        <div class="col-sm">
+        <div class="col-sm text-center">
           <img src="images/Glazed_Donut.jpg" alt="A glazed doughnut">
           <p>Glazed Doughnuts?</p>
         </div>
-        <div class="col-sm">
+        <div class="col-sm text-center">
           <img src="images/Eaten_Donut.jpg" alt="A doughnut with a bite taken out of it" >
           <p>My Doughnut...</p>
         </div>
@@ -104,18 +104,23 @@
     </main><!-- /.container -->
 
 <br>
-<!--Modal added here-->
-    <div class="modal" tabindex="-1" role="dialog">
+<<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Click here to subscribe for life!
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Hello all</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Look at this!</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <p>Please read this text, I am trying to make you sign up for soemthing...</p>
+        We love you
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
